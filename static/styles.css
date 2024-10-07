@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f9;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  height: 80vh;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#chat-window {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 15px;
+}
+
+.message.user {
+  text-align: right;
+  color: #007bff;
+}
+
+.message.assistant {
+  text-align: left;
+  color: #333;
+}
+
+.input-area {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+#user-input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+}
+
+#send-button {
+  padding: 15px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#send-button:hover {
+  background-color: #0056b3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.stats-table th, .stats-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.stats-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.stats-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stats-table tr:hover {
+  background-color: #ddd;
+}
+
+.message.assistant h3 {
+  margin-top: 0;
+}

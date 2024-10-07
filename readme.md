@@ -4,6 +4,9 @@
 
 A simple chatbot that fetches football leagues statistics and generates a graph of the top 5 goal scorers.
 
+<img width="1285" alt="image" src="https://github.com/user-attachments/assets/d27e1579-2d4b-4601-9eae-6795b4b55092">
+
+
 ## Setup Instructions
 
 ### Prerequisites
